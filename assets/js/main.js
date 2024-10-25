@@ -35,7 +35,15 @@ const myAtropos = Atropos({
 })
 
 
+//shadow header on scroll
+const shadowScroll = () => {
+    const header = document.getElementById("header");
+    this.scrollY >= 50
+        ? header.classList.add("shadow-scroll")
+        : header.classList.remove("shadow-scroll");
+};
 
+window.addEventListener('scroll', shadowScroll);
 
 
 
