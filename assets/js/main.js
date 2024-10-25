@@ -27,7 +27,12 @@ const linkAction = () => {
 navLinks.forEach(n => n.addEventListener('click', linkAction));
 
 
-
+//atropos
+const myAtropos = Atropos({
+    el: ".home__images",
+    shadow: false,
+    highlight: false,
+})
 
 
 
